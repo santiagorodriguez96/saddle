@@ -37,3 +37,21 @@ end
 appraise "activesupport_7.0" do
   gem "activesupport", "~> 7.0.4"
 end
+
+appraise "activesupport_7.1" do
+  gem "activesupport", "~> 7.1.3"
+end
+
+appraise "faraday_0.x" do
+  gem "faraday", "~> 0.9"
+  gem "faraday_middleware"
+end
+
+appraise "faraday_1" do
+  gem "faraday", "~> 1.0"
+  gem "faraday_middleware"
+end
+
+appraise "faraday_2" do
+  gem "faraday", "~> 2.0"
+end
